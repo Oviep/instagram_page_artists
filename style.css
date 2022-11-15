@@ -1,0 +1,63 @@
+body {
+margin: 0;  
+font-family: sans-serif;
+}
+
+.header_name {
+    font-family:'Source Sans Pro', sans-serif ;
+}
+
+.parent {
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    border-bottom: 2px solid rgba(236, 236, 236);
+    
+}
+
+.container_post, .container_post2, .container_post3 {
+    display: flex;
+    padding: 15px 10px;
+    border:1px solid white;
+}
+
+.account_container {
+    margin-left: 8px;
+}
+
+.header_img, .account_img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.main_img {
+    width: 400px;
+}
+
+h4 {
+    margin-bottom: -11px;
+}
+
+.likes, .username {
+    font-weight: bold;
+}
+
+.like_btn, .comment_btn, .dm_btn {
+    margin-top: 10px;
+    border: none;
+    font-size: 23px;
+    background: none;
+}
+
+.like_btn:hover, .comment_btn:hover, .dm_btn:hover {
+     opacity: 0.5;
+}
+   
